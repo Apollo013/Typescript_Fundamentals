@@ -4,13 +4,13 @@ if "%~1" == "" (
 ) else (
     @echo on
 
-    echo COMMITING %1
+    echo *** COMMITING %1 ***
     git add --all
     git commit -m %1
 
-    rem COMMITED %1
-    rem PUSHING TO REMOTE SERVER
+    echo *** COMMITED %1 ***
+    echo *** PUSHING TO REMOTE SERVER ***
 
     git push -u origin master
-    rem DONE !!!
+    echo *** DONE !!! ***
 )
