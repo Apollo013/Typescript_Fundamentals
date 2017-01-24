@@ -4,7 +4,7 @@ if "%~1" == "" (
 ) else (
     @echo on
 
-    rem COMMITING %1
+    echo COMMITING %1
     git add --all
     git commit -m %1
 
