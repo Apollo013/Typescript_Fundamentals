@@ -1,0 +1,19 @@
+{
+  "name": "typescript_fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apollo013/Typescript_Fundamentals.git"
+  },
+  "author": "Paul James Millar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apollo013/Typescript_Fundamentals/issues"
+  },
+  "homepage": "https://github.com/Apollo013/Typescript_Fundamentals#readme"
+}

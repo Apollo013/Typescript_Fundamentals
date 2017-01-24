@@ -12,5 +12,5 @@ if "%~1" == "" (
     echo *** PUSHING TO REMOTE SERVER ***
 
     git push -u origin master
-    echo *** DONE !!! ***
+    echo *** GIT DONE !!! ***
 )
