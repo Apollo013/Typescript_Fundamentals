@@ -1,0 +1,7 @@
+npm install typescript -g
+npm install ts-loader --save-dev
+tsc --init
+
+npm install webpack -g
+
+
