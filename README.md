@@ -26,7 +26,7 @@ Developed using Visual Studio Code
 
 ---
 
-The following are basic projects and are only here to demonstrate how typescript interacts with other frameworks
+The following are basic projects and are only here to demonstrate how typescript is wired up with other frameworks
 
 ### Projects
 |Project|Description|
