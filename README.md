@@ -1,6 +1,6 @@
 # Typescript_Fundamentals  
 
-Developed using Visual Studio Code
+Developed using Visual Studio Code & Visual Studio 2015
 
 ---
 
