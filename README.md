@@ -16,6 +16,7 @@ Developed using Visual Studio Code & Visual Studio 2015
 |Asp.Net Core|
 |Html|
 |Javascript|
+|Batch Files|
 
 ---
 
