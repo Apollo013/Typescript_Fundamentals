@@ -24,8 +24,8 @@ Developed using Visual Studio Code & Visual Studio 2015
 |Feature|Description|
 |-------|-----------|
 |Classes| Demonstration of abstract classes [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/common/models/abstract/person.ts) & inheritance [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/models/employee.ts)|
-|Interfaces| Demonstration of Interfaces [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/contracts/payroll-contract.ts) & implemented [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/payroll-service.ts)|
-|Enums| Demonstration of enums [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/utilities/enums.ts) & implemented [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/payroll-service.ts)|
+|Interfaces| Declaration of Interfaces [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/contracts/payroll-contract.ts) & implementation [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/payroll-service.ts)|
+|Enums| Declaration of enums [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/utilities/enums.ts) & implementation [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/payroll-service.ts)|
 
 ---
 
