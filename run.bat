@@ -1,1 +1,1 @@
-node ../dist/human_resources/run
+node ./dist/human_resources/run

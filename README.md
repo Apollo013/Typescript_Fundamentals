@@ -10,7 +10,7 @@ Developed using Visual Studio Code & Visual Studio 2015
 |Typescript|
 |Node.JS|
 |Gulp|
-|Gulp-Uglify|
+|Uglify|
 |Browserify|
 |Watchify|
 |Asp.Net Core|
@@ -27,7 +27,7 @@ Developed using Visual Studio Code & Visual Studio 2015
 
 ---
 
-The following are basic projects and are only here to demonstrate how typescript is wired up with other frameworks
+The following are basic projects and are only here to demonstrate how typescript can be wired up with other frameworks
 
 ### Projects
 |Project|Description|

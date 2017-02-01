@@ -1,3 +1,5 @@
+import {createGuid} from "../../../utilities/string-utilities"
+
 export abstract class Person {
     /*------------------------------------------------------------------------------
     PROPERTIES
@@ -10,7 +12,9 @@ export abstract class Person {
     /*------------------------------------------------------------------------------
     CONSTRUCTORS
     ------------------------------------------------------------------------------*/
-    protected constructor(){}
+    protected constructor(){
+        this.Guid = createGuid();
+    }
 
     /*------------------------------------------------------------------------------
     ACCESSORS
@@ -51,6 +55,6 @@ export abstract class Person {
     } 
 
     public ToString() : string {
-        return 'Name:\t' + this.FullName() + '\nDOB:\t' + this.Dob
+        return '\nName:\t' + this.FullName() + '\nDOB:\t' + this.Dob.toDateString() + '\nGuid:\t' + this.Guid
     }
 }

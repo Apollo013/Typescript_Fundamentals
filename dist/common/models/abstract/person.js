@@ -1,7 +1,9 @@
 "use strict";
+var string_utilities_1 = require("../../../utilities/string-utilities");
 var Person = (function () {
     function Person() {
         this.Guid = null;
+        this.Guid = string_utilities_1.createGuid();
     }
     Object.defineProperty(Person.prototype, "GetGuid", {
         get: function () {
@@ -56,7 +58,7 @@ var Person = (function () {
         return this.FirstName + ' ' + this.LastName;
     };
     Person.prototype.ToString = function () {
-        return 'Name:\t' + this.FullName() + '\nDOB:\t' + this.Dob;
+        return '\nName:\t' + this.FullName() + '\nDOB:\t' + this.Dob.toDateString() + '\nGuid:\t' + this.Guid;
     };
     return Person;
 }());

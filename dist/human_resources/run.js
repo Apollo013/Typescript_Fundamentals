@@ -1,4 +1,11 @@
 "use strict";
 var employee_1 = require("./models/employee");
-var emp1 = employee_1.Employee.Create("John", "Williams", new Date(), "8225995857A");
+var enums_1 = require("../utilities/enums");
+var payroll_service_1 = require("./services/payroll-service");
+var emp1 = employee_1.Employee.Create("John", "Williams", new Date(), "8225995857A", 25, enums_1.PayTypeEnum.Hourly, "Production Operative");
+var mng1 = employee_1.Employee.Create("Mary", "Gonnolly", new Date(), "3658425857A", 50000, enums_1.PayTypeEnum.Salary, "Suppply Chain Manager");
+var payRollService = new payroll_service_1.PayRollService();
 console.log(emp1.ToString());
+console.log("Earned:\t" + payRollService.CalculatePay(emp1.GetEarnings, 45));
+console.log(mng1.ToString());
+console.log("Earned:\t" + payRollService.CalculatePay(mng1.GetEarnings));

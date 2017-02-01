@@ -10,9 +10,12 @@ var Employee = (function (_super) {
     function Employee() {
         var _this = _super.call(this) || this;
         _this.SSN = null;
+        _this.Rate = 0;
+        _this.PayType = 1;
+        _this.Position = null;
         return _this;
     }
-    Employee.Create = function (firstName, lastName, dob, ssn) {
+    Employee.Create = function (firstName, lastName, dob, ssn, rate, paytype, position) {
         if (!firstName) {
             throw "Please supply a first name";
         }
@@ -22,16 +25,38 @@ var Employee = (function (_super) {
         if (!dob) {
             throw "Please supply date of birth";
         }
+        if (!rate) {
+            throw "Please supply rate";
+        }
+        if (!paytype) {
+            throw "Please supply pay type";
+        }
+        if (!position) {
+            throw "Please supply position";
+        }
         var emp = new Employee();
         emp.SetDob = dob;
         emp.SetFirstName = firstName;
         emp.SetLastName = lastName;
         emp.SetSSN = ssn;
+        emp.Rate = rate;
+        emp.PayType = paytype;
+        emp.Position = position;
         return emp;
     };
     Object.defineProperty(Employee.prototype, "SetSSN", {
         set: function (value) {
             this.SSN = value;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(Employee.prototype, "GetEarnings", {
+        get: function () {
+            var earnings = { Rate: 0, PayType: null };
+            earnings.Rate = this.Rate;
+            earnings.PayType = this.PayType;
+            return earnings;
         },
         enumerable: true,
         configurable: true
