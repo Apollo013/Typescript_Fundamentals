@@ -24,10 +24,12 @@ Developed using Visual Studio Code & Visual Studio 2015
 |Feature|Description|
 |-------|-----------|
 |Classes| Demonstration of abstract classes [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/common/models/abstract/person.ts) & inheritance [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/models/employee.ts)|
+|Interfaces| Demonstration of Interfaces [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/contracts/payroll-contract.ts) & implemented [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/payroll-service.ts)|
+|Enums| Demonstration of enums [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/utilities/enums.ts) & implemented [Here](https://github.com/Apollo013/Typescript_Fundamentals/blob/master/src/human_resources/services/payroll-service.ts)|
 
 ---
 
-The following are basic projects and are only here to demonstrate how typescript can be wired up with other frameworks
+The following are projects that are here to demonstrate how typescript can be wired up with other frameworks including Node, Gulp, Uglify, Browserify, etc...
 
 ### Projects
 |Project|Description|
